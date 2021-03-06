@@ -21,7 +21,7 @@
 
 /* iOS imports */
 
-#if TARGET_OS_IPHONE
+#if TARGET_OS_IPHONE || TARGET_OS_SIMULATOR || TARGET_IPHONE_SIMULATOR
 
 #import "GBDeviceInfo_iOS.h"
 
@@ -34,4 +34,3 @@
 #import "GBDeviceInfo_OSX.h"
 
 #endif
-
